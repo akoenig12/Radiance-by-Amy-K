@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiance by Amy K</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #f4a5bd;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .services, .about {
+            margin-bottom: 30px;
+        }
+        .services h2, .about h2, .contact h2 {
+            color: #f4a5bd;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #f4a5bd;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #d48ca1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Radiance by Amy K</h1>
+        <p>Your glow starts here!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>Welcome to Radiance by Amy K! I’m Amy, a licensed esthetician passionate about helping you achieve your best skin. With years of experience and a commitment to using top-quality products, I specialize in customized facials, skincare routines, and treatments that bring out your natural glow. Let’s work together to make you look and feel radiant!</p>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Services</h2>
+        <ul>
+            <li><strong>Signature Facials:</strong> Tailored to your skin type and concerns.</li>
+            <li><strong>Dermaplaning:</strong> Gently exfoliate and remove peach fuzz for smooth skin.</li>
+            <li><strong>Microdermabrasion:</strong> A deeper exfoliation to rejuvenate your skin.</li>
+            <li><strong>Waxing:</strong> Precision hair removal for a clean, polished look.</li>
+            <li><strong>Skincare Consultations:</strong> Personalized advice to perfect your routine.</li>
+        </ul>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Ready to book your appointment or have questions about the services? Let’s connect!</p>
+        <p>Email: <a href="mailto:amy@example.com">amy@example.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+        <a href="#" class="button">Book Now</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Radiance by Amy K. All rights reserved.</p>
+    </footer>
+</body>
+</html>
